@@ -1,2 +1,0 @@
-# Distributed Ledger Technology
-
