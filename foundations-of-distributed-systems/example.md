@@ -1,6 +1,6 @@
 # Example
 
-In this hands-on example, we will create a simulation of solving differential equations using a distributed system approach in Rust.
+In this hands-on example, we will create a simulation of chefs cooking a multi-course meal using a distributed system approach in Rust.
 
 ```rust
 use std::thread;

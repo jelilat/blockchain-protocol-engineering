@@ -1,6 +1,6 @@
 # Why Distribute a System?
 
-In the previous section, we saw how dividing the workload among multiple chefs led to a significant reduction in meal preparation time. This illustrates one of the main benefits of distributed systems: Scalability
+We saw how dividing the workload among multiple chefs led to a significant reduction in meal preparation time. This illustrates one of the main benefits of distributed systems: **Scalability**
 
 #### Scalability
 
@@ -20,7 +20,6 @@ Returning to our [example](example.md), if a chef fails to finish their assigned
 
 Here’s an extension of our Rust code to simulate a chef failing and reassigning their dish to another chef:
 
-````rust
 ```rust
 use rand::Rng;
 use std::thread;
@@ -66,9 +65,7 @@ fn main() {
         elapsed_time.as_secs_f64()
     );
 }
-
 ```
-````
 
 Sample Output
 
